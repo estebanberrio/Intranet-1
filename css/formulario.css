@@ -1,0 +1,29 @@
+body {
+  padding-top: 40px;
+  background-color: #f8f8f8;
+  text-align: center;
+}
+
+label {
+  display: inline-block;
+  width: 18%;
+  margin-top: auto;
+  text-align: center;
+}
+body, input {
+  font-family: sans-serif;
+}
+
+.formulario
+{  
+  text-align: justify center;
+}
+
+input, textarea, select, button
+{
+  width : 130px;
+  margin: 0;
+  -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+  -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+  box-sizing: border-box;
+} 

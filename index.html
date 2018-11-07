@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<?php include("banners.php"); ?>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Intranet de LitoEmpaques">
+    <meta name="author" content="LitoEmpaques">
+    <title>Intranet de Litoempaques</title>
+
+    <!-- banner HEAD section -->
+    <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+    <script type="text/javascript" src="engine1/jquery.js"></script>
+    <!-- banner HEAD section -->
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="https://www.litoempaques.com">Litoempaques</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <form class="navbar-form navbar-right" action="scripts/iniciar-sesion.php" method="POST">
+            <div class="form-group">
+              <input type="text" placeholder="Usuario" class="form-control" name="txtUsuario">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Contraseña" class="form-control" name="txtClave">
+            </div>
+            <button type="submit" class="btn btn-success">Iniciar sesión</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <br> </br>
+        <img src='../intranet/imagenes/logo.png' border='0' width='50%' height='50%'>
+        <h4>Somos expertos en el desarrollo y la fabricación de impresiones litográficas y ensamble de envases en hojalata para usos decorativos, publicitarios e industriales, ofreciendo diversas alternativas, con ingeniosas formas, tamaños, diseños y repujados, que cuentan con alta calidad y excelentes acabados que logran un impacto inmediato en todos nuestros clientes, alto posicionamiento, prestigio y reconocimiento.</h4>
+        <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Leer más &raquo;</a></p>-->
+      </div>
+    </div>
+
+      <!-- banner BODY section -->
+      <div id="wowslider-container1">
+        <div class="ws_images"><ul>
+		        <li><img src="data1/images/1.png" alt="1" title="1" id="wows1_0"/></li>
+		          <li><a href="#"><img src="data1/images/2.jpg" alt="css image slider" title="2" id="wows1_1"/></a></li>
+		            <li><img src="data1/images/3.jpg" alt="3" title="3" id="wows1_2"/></li>
+	             </ul></div>
+	              <div class="ws_bullets"><div>
+		               <a href="#" title="1"><span>1</span></a>
+		               <a href="#" title="2"><span>2</span></a>
+		               <a href="#" title="3"><span>3</span></a>
+	               </div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="#"></a> </div>
+      <div class="ws_shadow"></div>
+     </div>
+    <script type="text/javascript" src="engine1/wowslider.js"></script>
+    <script type="text/javascript" src="engine1/script.js"></script>
+    <!-- banner BODY section -->
+
+    <br></br>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2><font color="#3399cc">Misión</font></h2>
+          <p>Somos una organización dedicada a la fabricación y comercialización de soluciones de empaque para la industria, cuya misión es contribuir a la generación de valor para nuestros clientes, desarrollando envases innovadores, competitivos y con altos atributos de calidad y funcionalidad, mejorando continuamente nuestros procesos y el conocimiento de nuestros colaboradores, asegurando la rentabilidad a nuestros accionistas y respetando el medio ambiente, la comunidad y las demás partes interesadas.</p>
+          <!-- <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
+        </div>
+        <div class="col-md-4">
+          <h2><font color="#3399cc">Visión</font></h2>
+          <p>Para el año 2022 consolidaremos nuestra participación en el mercado de envases decorativos como una solución de empaque complementaria a nuestros portafolios actuales, tal que ello nos permita, en el mediano plazo, convertirnos en los líderes del sector en cada uno de los diferentes segmentos en los cuales participamos*, sobre la base de nuestros clientes actuales y otros clientes potenciales que se puedan desarrollar. </p>
+          <!--<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
+       </div>
+        <div class="col-md-4">
+          <h2><font color="#3399cc">Propuesta de Valor</font></h2>
+          <p>Litoempaques es un aliado estratégico para todos sus clientes, ofreciendo soluciones de empaque creativas e innovadoras, que contribuyen al desarrollo sostenible y a la generación de valor de nuestros socios comerciales actuales y potenciales. </p>
+          <!--<p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p> -->
+        </div>
+      </div>
+
+      <br></br>
+
+
+      <footer>
+        <h4>&copy; Litoempaques 2018</h4>
+        <h6>Esta es la primera versión de nuestra Intranet. Se encuentra funcional, pero está propensa a futuros cambios y actualizaciones, que añadirán nuevas características.<h6>
+      </footer>
+    </div> <!-- /container -->
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

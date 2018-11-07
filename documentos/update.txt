@@ -1,0 +1,48 @@
+update archivos set usuario='8029791' where usuario ='8029792';
+update archivos set usuario='8061871' where usuario ='8061872';
+update archivos set usuario='8400825' where usuario ='8400826';
+update archivos set usuario='15458977' where usuario ='15458978';
+update archivos set usuario='15517761' where usuario ='15517762';
+update archivos set usuario='16716511' where usuario ='16716512';
+update archivos set usuario='21533475' where usuario ='21533476';
+update archivos set usuario='21852970' where usuario ='21852971';
+update archivos set usuario='32241613' where usuario ='32241614';
+update archivos set usuario='32259358' where usuario ='32259359';
+update archivos set usuario='43104048' where usuario ='43104049';
+update archivos set usuario='43162571' where usuario ='43162572';
+update archivos set usuario='43277073' where usuario ='43277074';
+update archivos set usuario='43522810' where usuario ='43522811';
+update archivos set usuario='43639504' where usuario ='43639505';
+update archivos set usuario='43826231' where usuario ='43826232';
+update archivos set usuario='43922089' where usuario ='43922090';
+update archivos set usuario='43991483' where usuario ='43991484';
+update archivos set usuario='43996637' where usuario ='43996638';
+update archivos set usuario='70852947' where usuario ='70852948';
+update archivos set usuario='71290066' where usuario ='71290067';
+update archivos set usuario='71635318' where usuario ='71635321';
+update archivos set usuario='71683373' where usuario ='71683375';
+update archivos set usuario='71697723' where usuario ='71697726';
+update archivos set usuario='71701376' where usuario ='71701377';
+update archivos set usuario='71702511' where usuario ='71702512';
+update archivos set usuario='71730398' where usuario ='71730400';
+update archivos set usuario='71756215' where usuario ='71756216';
+update archivos set usuario='71992798' where usuario ='71992799';
+update archivos set usuario='71992857' where usuario ='71992858';
+update archivos set usuario='98494054' where usuario ='98494055';
+update archivos set usuario='98561159' where usuario ='98561162';
+update archivos set usuario='98595189' where usuario ='98595192';
+update archivos set usuario='71556844' where usuario ='715568441';
+update archivos set usuario='1036599935' where usuario ='1036599936';
+update archivos set usuario='1037591271' where usuario ='1037591272';
+update archivos set usuario='1037615192' where usuario ='1037615194';
+update archivos set usuario='1067090843' where usuario ='1067090844';
+update archivos set usuario='43102839' where usuario ='43102841';
+
+
+
+
+
+
+
+
+
